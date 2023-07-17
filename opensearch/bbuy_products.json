@@ -86,7 +86,8 @@
             "type": "keyword",
             "ignore_above": 256
           }
-        }
+        },
+        "analyzer": "english"
       },
       "departmentId": {
         "type": "text",
@@ -221,6 +222,15 @@
             "ignore_above": 256
           }
         }
+      },
+      "salesRankShortTerm": {
+        "type": "float"
+      },
+      "salesRankMediumTerm": {
+        "type": "float"
+      },
+      "salesRankLongTerm": {
+        "type": "float"
       },
       "shortDescription": {
         "type": "text",
